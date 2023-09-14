@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 
 
-const Cart = ({selectedCourses, newCredit}) => {
+const Cart = ({selectedCourses, newCredit, newPrice}) => {
     let count = 0;
     return (
         <div className="w-1/4 p-4 bg-base-100 h-fit shadow-2xl rounded-xl">
@@ -11,13 +11,13 @@ const Cart = ({selectedCourses, newCredit}) => {
             <div>
                 <h1 className="text-xl font-bold mb-2">Course Name</h1>
                 {
-                    selectedCourses.map((course, idx) => <p className="leading-8 text-gray" key={idx}>{++count}. {course.title}</p>)
+                    selectedCourses.map((course, idx) => <p className="leading-8 text-gray-600" key={idx}>{++count}. {course.title}</p>)
                 }
             </div>
             <hr className="mt-6 mb-4"/>
             <h3 className="font-medium">Total Credit Hour: {newCredit} hr</h3>
             <hr className="my-4" />
-            <h3 className="font-semibold">Total Price: </h3>
+            <h3 className="font-semibold">Total Price: $ {newPrice}</h3>
         </div>
     );
 };

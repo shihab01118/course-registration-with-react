@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 
 
-const Cart = ({selectedCourses}) => {
+const Cart = ({selectedCourses, newCredit}) => {
     let count = 0;
     return (
         <div className="w-1/4 p-4 bg-base-100 h-fit shadow-2xl rounded-xl">
@@ -15,7 +15,7 @@ const Cart = ({selectedCourses}) => {
                 }
             </div>
             <hr className="mt-6 mb-4"/>
-            <h3 className="font-medium">Total Credit Hour: </h3>
+            <h3 className="font-medium">Total Credit Hour: {newCredit} hr</h3>
             <hr className="my-4" />
             <h3 className="font-semibold">Total Price: </h3>
         </div>

@@ -1,0 +1,66 @@
+[
+    {
+      "cover_img": "https://img.freepik.com/premium-photo/python-programming-code-abstract-technology-background_272306-146.jpg",
+      "title": "Python Programming Fundamentals",
+      "credit": 3,
+      "details": "Learn the basics of Python programming, including variables, loops, and functions.",
+      "price": 49.99
+    },
+    {
+      "cover_img": "https://img.freepik.com/premium-photo/programming-language-javascript-with-5star-rating-code-elements-badges-3d_327483-804.jpg",
+      "title": "JavaScript for Web Development",
+      "credit": 4,
+      "details": "Master JavaScript and its use in building interactive web applications.",
+      "price": 59.99
+    },
+    {
+      "cover_img": "https://img.freepik.com/premium-photo/programming-language-java-with-5star-rating-code-elements-badges-3d_327483-794.jpg",
+      "title": "Java Programming Essentials",
+      "credit": 3,
+      "details": "Get started with Java and explore object-oriented programming concepts.",
+      "price": 54.99
+    },
+    {
+      "cover_img": "https://img.freepik.com/premium-photo/programming-code-abstract-technology-background_272306-158.jpg",
+      "title": "C++ Programming Advanced Topics",
+      "credit": 5,
+      "details": "Dive deep into advanced C++ topics, including templates and STL.",
+      "price": 69.99
+    },
+    {
+      "cover_img": "https://www.dice.com/binaries/medium/content/gallery/dice/insights/2019/02/Ruby-Jobs-Dice.png",
+      "title": "Ruby on Rails Web Development",
+      "credit": 4,
+      "details": "Build web applications with Ruby on Rails, a popular web framework.",
+      "price": 59.99
+    },
+    {
+      "cover_img": "https://venturebeat.com/wp-content/uploads/2015/12/apple_swift.jpg",
+      "title": "Swift Programming for iOS",
+      "credit": 3,
+      "details": "Learn Swift programming and create iOS apps for iPhones and iPads.",
+      "price": 49.99
+    },
+    {
+      "cover_img": "https://img.freepik.com/free-vector/gradient-sql-illustration_23-2149247491.jpg",
+      "title": "SQL Database Administration",
+      "credit": 4,
+      "details": "Become an expert in SQL database administration and management.",
+      "price": 64.99
+    },
+    {
+      "cover_img": "https://img.freepik.com/premium-photo/open-laptop-with-php-icon-screen-3d_327483-1062.jpg",
+      "title": "PHP Web Development Masterclass",
+      "credit": 5,
+      "details": "Become a proficient PHP developer and build dynamic websites.",
+      "price": 69.99
+    },
+    {
+      "cover_img": "https://www.softwebsolutions.com/wp-content/uploads/2020/10/golang-Programing.jpg",
+      "title": "Go Programming in Depth",
+      "credit": 3,
+      "details": "Explore the intricacies of Go programming language for system-level development.",
+      "price": 54.99
+    }
+  ]
+  

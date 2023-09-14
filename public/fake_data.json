@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "cover_img": "https://img.freepik.com/premium-photo/python-programming-code-abstract-technology-background_272306-146.jpg",
       "title": "Python Programming Fundamentals",
       "credit": 3,
@@ -7,6 +8,7 @@
       "price": 49.99
     },
     {
+      "id": 2,
       "cover_img": "https://img.freepik.com/premium-photo/programming-language-javascript-with-5star-rating-code-elements-badges-3d_327483-804.jpg",
       "title": "JavaScript for Web Development",
       "credit": 4,
@@ -14,6 +16,7 @@
       "price": 59.99
     },
     {
+      "id": 3,
       "cover_img": "https://img.freepik.com/premium-photo/programming-language-java-with-5star-rating-code-elements-badges-3d_327483-794.jpg",
       "title": "Java Programming Essentials",
       "credit": 3,
@@ -21,6 +24,7 @@
       "price": 54.99
     },
     {
+      "id": 4,
       "cover_img": "https://img.freepik.com/premium-photo/programming-code-abstract-technology-background_272306-158.jpg",
       "title": "C++ Programming Advanced Topics",
       "credit": 5,
@@ -28,6 +32,7 @@
       "price": 69.99
     },
     {
+      "id": 5,
       "cover_img": "https://www.dice.com/binaries/medium/content/gallery/dice/insights/2019/02/Ruby-Jobs-Dice.png",
       "title": "Ruby on Rails Web Development",
       "credit": 4,
@@ -35,6 +40,7 @@
       "price": 59.99
     },
     {
+      "id": 6,
       "cover_img": "https://venturebeat.com/wp-content/uploads/2015/12/apple_swift.jpg",
       "title": "Swift Programming Language for iOS",
       "credit": 3,
@@ -42,6 +48,7 @@
       "price": 49.99
     },
     {
+      "id": 7,
       "cover_img": "https://img.freepik.com/free-vector/gradient-sql-illustration_23-2149247491.jpg",
       "title": "SQL for Database Administration",
       "credit": 4,
@@ -49,6 +56,7 @@
       "price": 64.99
     },
     {
+      "id": 8,
       "cover_img": "https://img.freepik.com/premium-photo/open-laptop-with-php-icon-screen-3d_327483-1062.jpg",
       "title": "PHP Web Development Masterclass",
       "credit": 5,
@@ -56,6 +64,7 @@
       "price": 69.99
     },
     {
+      "id": 9,
       "cover_img": "https://www.softwebsolutions.com/wp-content/uploads/2020/10/golang-Programing.jpg",
       "title": "Go Programming Language in Depth",
       "credit": 3,

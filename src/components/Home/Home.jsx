@@ -2,11 +2,20 @@
 import { useState } from "react";
 import Cards from "../Cards/Cards";
 import Cart from "../Cart/Cart";
+import Swal from 'sweetalert2'
 
 
 const Home = () => {
-    const [selectedCourses, setSelectedCourses] = useState([])
+    const [selectedCourses, setSelectedCourses] = useState([]);
+    
     const handleSelect = course => {
+        const isExist = selectedCourses.find(item => item.id === course.id);
+        if (isExist) {
+            return Swal.fire({
+                title: 'Oops...',
+                text: "You've already selected this course."   
+              })
+        }
         setSelectedCourses([...selectedCourses, course])
     }
     return (

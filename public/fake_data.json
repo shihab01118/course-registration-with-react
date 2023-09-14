@@ -10,7 +10,7 @@
       "cover_img": "https://img.freepik.com/premium-photo/programming-language-javascript-with-5star-rating-code-elements-badges-3d_327483-804.jpg",
       "title": "JavaScript for Web Development",
       "credit": 4,
-      "details": "Master JavaScript and its use in building interactive web applications with modern frameworks",
+      "details": "Master JavaScript and its use in building interactive web applications with modern frameworks.",
       "price": 59.99
     },
     {
@@ -43,7 +43,7 @@
     },
     {
       "cover_img": "https://img.freepik.com/free-vector/gradient-sql-illustration_23-2149247491.jpg",
-      "title": "SQL Database Administration",
+      "title": "SQL for Database Administration",
       "credit": 4,
       "details": "Become an expert in SQL database administration, management, optimization, and query tuning.",
       "price": 64.99

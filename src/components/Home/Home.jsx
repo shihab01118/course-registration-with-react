@@ -39,7 +39,7 @@ const Home = () => {
                 return Swal.fire({
                     icon: 'warning',
                     title: 'Oops...',
-                    text: "Something went wrong!!"   
+                    text: "Selected credit can't be below zero!!"   
                   })
             }
             setnNewCredit(totalCredit);

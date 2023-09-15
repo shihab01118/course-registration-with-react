@@ -19,7 +19,8 @@ const Home = () => {
         let remainingCredit = 20 - course.credit;
         if (isExist) {
             return Swal.fire({
-                title: 'Oops...',
+                icon: 'warning',
+                title: 'Sorry...',
                 text: "You've already selected this course."   
               })
         }
@@ -30,8 +31,8 @@ const Home = () => {
             if (totalCredit > 20) {
                 return Swal.fire({
                     icon: 'warning',
-                    title: 'Oops...',
-                    text: "You can't add more than 20 credits."   
+                    title: 'Limit Exceeded',
+                    text: "You can only get 20 credits max."   
                   })
             }
             if (remainingCredit < 0) {
@@ -48,7 +49,7 @@ const Home = () => {
         }
     }
     return (
-        <div className="flex gap-5 container mx-auto">
+        <div className="flex flex-col-reverse lg:flex-row gap-5 lg:container mx-8 md:mx-16 lg:mx-auto">
             <Cards handleSelect={handleSelect}></Cards>
             <Cart selectedCourses={selectedCourses} newCredit={newCredit} newPrice={newPrice} newremainingCredit={newremainingCredit}></Cart>
         </div>

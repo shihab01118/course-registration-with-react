@@ -5,7 +5,7 @@
 const Cart = ({selectedCourses, newCredit, newPrice, newremainingCredit}) => {
     let count = 0;
     return (
-        <div className="w-1/4 p-4 bg-base-100 h-fit shadow-2xl rounded-xl">
+        <div className="lg:w-1/4 p-4 bg-base-100 h-fit shadow-2xl rounded-xl">
             <h1 className="text-xl font-bold text-[#2F80ED]">Remaining Credit: {newremainingCredit} hr</h1>
             <hr className="my-4" />
             <div>

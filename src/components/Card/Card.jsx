@@ -22,7 +22,7 @@ const Card = ({course, handleSelect}) => {
                             <p>Credit: {credit} hr</p>
                         </div>
                     </div>
-                    <button onClick={() => handleSelect(course)} className="btn btn-sm bg-[#2F80ED] text-white w-full">Select</button>
+                    <button onClick={() => handleSelect(course)} className="btn bg-[#2F80ED] text-white w-full">Select</button>
                 </div>
             </div>
         </div>
